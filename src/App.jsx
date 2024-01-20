@@ -1,6 +1,7 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
-import SponsoredBy from "./components/SponsoredBy";
+import SponsoredBy from "./sections/SponsoredBy";
+import Support from "./sections/Support";
 import HeroSection from "./sections/HeroSection";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <NavigationBar /> 
       <HeroSection />
       <SponsoredBy/>
+      <Support/>
     </>
   );
 }
