@@ -1,5 +1,6 @@
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
+import SponsoredBy from "./components/SponsoredBy";
 import HeroSection from "./sections/HeroSection";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavigationBar /> 
       <HeroSection />
+      <SponsoredBy/>
     </>
   );
 }

@@ -16,11 +16,13 @@ export default function HeroSection() {
 
           <div className="flex gap-5 ">
             <input
-              className="h-[60px] w-[350px] bg-[#FFFFFF] rounded-[5px] shadow-[0_8px_30px_rgb(72,59,16,0.08)] rounded-[5px] pl-7 "
+              className="h-[60px] w-[350px] bg-[#FFFFFF] shadow-[0_8px_30px_rgb(72,59,16,0.08)] rounded-[5px] pl-7 "
               type="text"
               placeholder="Enter Email Address"
             />
-            <button className="bg-[#FFC059] w-[163px] h-[60px] rounded-[5px] font-bold text-white">Get Started</button>
+            <button className="bg-[#FFC059] w-[163px] h-[60px] rounded-[5px] font-bold text-white">
+              Get Started
+            </button>
           </div>
         </div>
 
